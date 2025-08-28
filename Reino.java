@@ -1,6 +1,6 @@
 
 
-public class Reino {
+public class Reino{
     private String poder;
     private String nombre;
     private int nivel;
@@ -20,14 +20,14 @@ public class Reino {
         this.poder = poder;
     }
 
-    public String getPoder{
+    public String getPoder(){
         return poder;
     }
 
     public void setNombre(String nombre){
         this.nombre = nombre;
     }
-    public String getNombre{
+    public String getNombre(){
         return nombre;
     }
     
@@ -35,14 +35,14 @@ public class Reino {
         this.nivel = nivel;
     }
     
-    public String getNivel{
+    public int getNivel(){
         return nivel;
     }
 
     public void setHabitad( String habitad){
         this.habitad = habitad;
     }
-    public String getHabitad{
+    public String getHabitad(){
         return habitad;
     }
 
@@ -50,19 +50,18 @@ public class Reino {
         this.secreto = secreto;
     }
 
-    public String getSecreto{
+    public String getSecreto(){
         return secreto;
     }
 
 
-    public void caracteristicas{
+    public void caracteristicas(){
         System.out.println("---------------------caracteristicas de personajes----------------------");
         System.out.println("Nombre:  " + nombre );
         System.out.println("Poder del personaje: " + poder);
-        System.out.println("habitad: " + habitad;);
-        System.out.println("nivel de personaje: " + nivel);
-        System.out.println("tiene un  secreto: " + secreto);
-        System.out.println("tiene " + edad + "años");
+        System.out.println("Habitad: " + habitad);
+        System.out.println("Nivel de personaje: " + nivel);
+        System.out.println("Tiene un  secreto: " + secreto);
         System.out.println("-------------------------------------------------------------");
     }
 
